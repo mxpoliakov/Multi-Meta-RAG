@@ -1,0 +1,3 @@
+[submodule "MultiHop-RAG"]
+	path = MultiHop-RAG
+	url = https://github.com/yixuantt/MultiHop-RAG
