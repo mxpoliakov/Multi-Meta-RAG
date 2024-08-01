@@ -17,7 +17,7 @@ client = OpenAI()
 @retry(tries=10, delay=1, backoff=2)
 def predict(query):
     completion = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4-0613",
         messages=[{"role": "user", "content": query}],
         temperature=0.1,
     )

@@ -1,5 +1,5 @@
 langchain==0.2.1
-langchain-community @ git+https://github.com/mxpoliakov/langchain.git#subdirectory=libs/co
+langchain-community @ git+https://github.com/mxpoliakov/langchain.git#subdirectory=libs/community
 langchain-voyageai
 neo4j
 retry
