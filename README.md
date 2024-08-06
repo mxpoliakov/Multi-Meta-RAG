@@ -37,7 +37,7 @@ python qa_gpt.py
 ```
 # Evaluate retrieval experiment using MultiHop-RAG evaluation script
 cd MultiHop-RAG
-python evaluate.py --path ../output
+python retrieval_evaluate.py --path ../output
 ```
 ```
 # Evaluate generation accuracy
