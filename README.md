@@ -1,4 +1,8 @@
 # Multi-Meta-RAG
+---
+> 🚀 **New Paper:** Check out **MisSynth**, a RAG-based pipeline to generate synthetic data for LLM fine-tuning to detect health misinformation. [**Paper (arXiv)**](https://arxiv.org/abs/2510.26345) | [**Code (GitHub)**](https://github.com/mxpoliakov/MisSynth)
+---
+![Multi-Meta-RAG](images/pipeline.png)
 ## Prerequisites
 ```shell
 # Clone with MultiHop-RAG submodule
