@@ -47,3 +47,12 @@ python retrieval_evaluate.py --path ../output
 # Evaluate generation accuracy
 python evaluate_qa.py
 ```
+## Probe source filters (instead of GPT metadata extraction)
+A linear probe on a small open LLM's hidden states predicts the `source` filter locally, replacing the paid GPT-3.5 step above.
+```shell
+pip install -r requirements-probe.txt
+python build_ground_truth_filters.py   # gold source filters from evidence
+python extract_hidden_states.py         # cache per-layer hidden states (--model)
+python train_probe.py                   # layer sweep, best probe, figure + results
+python predict_probe_filters.py         # write probe filters, compare vs GPT-3.5
+```
